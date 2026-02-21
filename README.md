@@ -24,8 +24,8 @@ Simple REST API that adds two integers. Built as a take-home task.
 ## Run locally
 
 ```bash
-docker pull ghcr.io/veljko-milosavljevic/sunairio-add:latest
-docker run -p 5000:5000 ghcr.io/veljko-milosavljevic/sunairio-add:latest
+docker pull ghcr.io/veljko-milosavljevic/sunairio:latest
+docker run -p 5000:5000 ghcr.io/veljko-milosavljevic/sunairio:latest
 
 # Test
 curl "http://localhost:5000/add?left=6&right=3"   # → {"sum":9}
